@@ -998,7 +998,18 @@
     </xslt>
   </target>
 
-  <target name="deploy" depends="package,build-docs,build-tomcat-jdbc,compile-webapp-examples"
+  <target name="create-war">
+		<war destfile="output/tomcat-workload.war"
+		     webxml="webapps/examples/WEB-INF/web.xml">
+			<fileset dir="webapps/examples">
+				<exclude name="**/*.java" />
+			</fileset>
+			<lib dir="webapps/examples/WEB-INF/lib" />
+			<classes dir="output/build/webapps/examples/WEB-INF/classes" />
+		</war>
+	</target>
+	
+  <target name="deploy" depends="package,build-docs,build-tomcat-jdbc,compile-webapp-examples,create-war"
           description="Default. Builds a working Tomcat instance">
 
     <copy tofile="${tomcat.build}/bin/tomcat-native.tar.gz"
