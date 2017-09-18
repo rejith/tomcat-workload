@@ -998,7 +998,7 @@
     </xslt>
   </target>
 
-  <target name="create-war-x">
+  <target name="create-war-x2">
 		<war destfile="output/tomcat-workload.war"
 		     webxml="webapps/examples/WEB-INF/web.xml">
 			<fileset dir="webapps/examples">
