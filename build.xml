@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<project name="Tomcat 8.0" default="deploy2" basedir=".">
+<project name="Tomcat 8.0" default="deploy" basedir=".">
 
   <!-- ===================== Initialize Property Values ==================== -->
 
@@ -33,7 +33,7 @@
   <property file="build.properties.default"/>
 
   <!-- Project Name -->
-  <property name="project"               value="apache-tomcat" />
+  <property name="project"               value="apache-tomcat" >
 
   <!-- Version numbers -->
   <property name="version"               value="${version.major}.${version.minor}.${version.build}${version.suffix}" />
