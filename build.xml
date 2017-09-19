@@ -33,7 +33,7 @@
   <property file="build.properties.default"/>
 
   <!-- Project Name -->
-  <property name="project"               value="apache-tomcat" />
+  <property name="project"               value="apache-tomcat" >
 
   <!-- Version numbers -->
   <property name="version"               value="${version.major}.${version.minor}.${version.build}${version.suffix}" />
