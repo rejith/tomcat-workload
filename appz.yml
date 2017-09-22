@@ -1,0 +1,12 @@
+app:
+  name : Tomcat Workload
+  code : TCWL
+  
+build:
+  version : 0.9
+  env : DEV
+  build_file : build.xml
+  output_files : output/*.war
+  image_template: tomcat8
+  image_name : myco/tomcat-workload
+ 
