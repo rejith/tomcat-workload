@@ -20,8 +20,3 @@ properties:
   welcome_message: Welcome to tomcat workload !!!
   worker_threads: 5
   auto_refresh: false
- 
-release_notes:
-  - 41: Added configurable welcome message
-  - 95: Support for multiple threads
-  - 37: Sprint 2017/41
