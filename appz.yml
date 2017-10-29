@@ -22,6 +22,6 @@ properties:
   auto_refresh: false
  
 release_notes:
-  - Added configurable welcome message
-  - Support for multiple threads
-  - Sprint 2017/41
+  - 41: Added configurable welcome message
+  - 95: Support for multiple threads
+  - 37: Sprint 2017/41
