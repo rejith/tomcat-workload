@@ -11,4 +11,4 @@ build:
   image_name : myco/tomcat-workload
  
  release_notes:
-  - Change a.1
+  - Change a.2
