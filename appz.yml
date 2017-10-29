@@ -10,3 +10,5 @@ build:
   image_template: tomcat8
   image_name : myco/tomcat-workload
  
+ release_notes:
+  - Change a.1
