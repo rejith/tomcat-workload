@@ -22,5 +22,6 @@ properties:
   auto_refresh: false
  
 release_notes:
-  - Added deploy section. 
-  - a.6
+  - Added configurable welcome message
+  - Support for multiple threads
+  - Sprint 2017/41
