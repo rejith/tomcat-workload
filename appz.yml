@@ -9,6 +9,7 @@ build:
   output_files : output/*.war
   image_template: tomcat8
   image_name : myco/tomcat-workload
+  interval : 0
   
 deploy:
   context: myco/DEV
