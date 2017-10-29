@@ -15,6 +15,11 @@ deploy:
   context: myco/DEV
   replicas: 4
   port: 8080
+  
+properties:
+  welcome_message: Welcome to tomcat workload !!!
+  worker_threads: 5
+  auto_refresh: false
  
 release_notes:
   - Added deploy section. 
