@@ -9,6 +9,11 @@ build:
   output_files : output/*.war
   image_template: tomcat8
   image_name : myco/tomcat-workload
+  
+deploy:
+  context: myco/DEV
+  replicas: 4
+  port: 8080
  
- release_notes:
-  - Change a.2
+release_notes:
+  - Added deploy section. 
