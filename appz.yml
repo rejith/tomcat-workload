@@ -17,7 +17,7 @@ deploy:
   port: 8080
   
 properties:
-  welcome_message: Welcome to tomcat workload !!!
+  title: Welcome to tomcat workload !!!
   worker_threads: 5
   auto_refresh: false
   nano : 35
