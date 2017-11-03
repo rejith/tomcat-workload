@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Tomcat-loadgen Application</title>
+<title><%= System.getProperty("title")%></title>
 </head>
 <body>
 	<h1>Welcome to <%= System.getProperty("title")%>   <%= System.getProperty("appz.image_version")%></h1>
