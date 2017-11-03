@@ -13,21 +13,19 @@
 		<li><a href="servlets/">Servlets examples</a></li>
 		<li><a href="jsp/">JSP Examples</a></li>
 	</ul>	
-		<h2>System Properties</h2>
-		<pre>
-		 <%@ page import="java.util.*"%>
-	<%
-		Properties systemProperties = System.getProperties();
-		out.println();
-		SortedMap sortedSystemProperties = new TreeMap(systemProperties);
-		Set keySet = sortedSystemProperties.keySet();
-		Iterator iterator = keySet.iterator();
-		while (iterator.hasNext()) {
-			String propertyName = (String) iterator.next();
-			String propertyValue = systemProperties.getProperty(propertyName);
-			out.println( propertyName + " : "+  propertyValue);
-	}
-		%>
-	</pre>
+<pre>
+System Properties
+---------------------------------
+<%@ page import="java.util.*"%><%
+Properties systemProperties = System.getProperties();
+out.println();
+SortedMap sortedSystemProperties = new TreeMap(systemProperties);
+Set keySet = sortedSystemProperties.keySet();
+Iterator iterator = keySet.iterator();
+while (iterator.hasNext()) {
+	String propertyName = (String) iterator.next();
+	String propertyValue = systemProperties.getProperty(propertyName);
+	out.println( propertyName + " : "+  propertyValue);
+}%></pre>
 </body>
 </html>
