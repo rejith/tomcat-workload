@@ -9,9 +9,11 @@
 <body>
 	<h1>Welcome to <%= System.getProperty("title")%>   <%= System.getProperty("appz.image_version")%></h1>
 		
-	<h2>
-		System Properties
-		</br>
+		<ul>
+		<li><a href="servlets/">Servlets examples</a></li>
+		<li><a href="jsp/">JSP Examples</a></li>
+	</ul>	
+		<h2>System Properties</h2>
 		<pre>
 		 <%@ page import="java.util.*"%>
 	<%
@@ -27,12 +29,5 @@
 	}
 		%>
 	</pre>
-
-	</h2>
-	<ul>
-<li><a href="servlets/">Servlets examples</a></li>
-<li><a href="jsp/">JSP Examples</a></li>
-</ul>
-
 </body>
 </html>
