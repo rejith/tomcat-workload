@@ -20,4 +20,4 @@ properties:
   title:  tomcat workload !!!
   worker_threads: 5
   auto_refresh: false
-  nano : 40
+  nano : 41
