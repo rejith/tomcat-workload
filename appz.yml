@@ -1,6 +1,7 @@
 app:
   name : Tomcat Workload
   code : TCWL
+  notify: appz@cloudbourne.co
   
 build:
   version : 0.9
