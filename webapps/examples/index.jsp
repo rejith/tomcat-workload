@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Welcome to <%= System.getProperty("title")%>   <%= System.getProperty("appz.image_version")%></h1>
-	<h2><%@ page import="java.net.*"%><%
+	<h2>IP Address: <%@ page import="java.net.*"%><%
 	String ipValue = "error";
            
 	try {
