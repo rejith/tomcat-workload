@@ -14,11 +14,11 @@ build:
   
 deploy:
   context: myco/DEV
-  replicas: 4
+  replicas: 2
   port: 8080
   
 properties:
   title:  tomcat workload !!!
   worker_threads: 5
   auto_refresh: false
-  nano : 50
+  nano : 51
