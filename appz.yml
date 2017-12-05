@@ -8,7 +8,7 @@ build:
   env : DEV
   build_file : build.xml
   output_files : output/*.war
-  image_template: websphere8
+  image_template: tomcat8
   image_name : myco/tomcat-workload
   interval : 0
   
@@ -21,4 +21,4 @@ properties:
   title:  tomcat workload !!!
   worker_threads: 5
   auto_refresh: false
-  nano : 189
+  nano : 190
