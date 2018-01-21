@@ -8,7 +8,7 @@ build:
   env : DEV
   build_file : build.xml
   output_files : output/*.war
-  image_template: weblogic12c
+  image_template: tomcat8
   image_name : myco/tomcat-workload
   interval : 0
   
@@ -18,7 +18,7 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload JAN20
+  title:  Tomcat Workload
   worker_threads: 5
   auto_refresh: false
   nano : 206
