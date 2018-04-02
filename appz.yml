@@ -8,12 +8,12 @@ build:
   env : DEV
   build_file : build.xml
   output_files : output/*.war
-  image_template: tomcat8a
+  image_template: tomcat8
   image_name : myco/tomcat-workload
   interval : 0
   
 deploy:
-  context: myco/DEV
+  context: myco/DEV2
   replicas: 4
   port: 8080
   
