@@ -18,7 +18,7 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload
+  title:  Tomcat Workload Kerala UEEYES
   worker_threads: 5
   auto_refresh: false
-  nano : 263
+  nano : 264
