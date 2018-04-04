@@ -18,7 +18,7 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Darsan JSHS
+  title:  Tomcat Workload
   worker_threads: 5
   auto_refresh: false
-  nano : 262
+  nano : 263
