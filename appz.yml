@@ -18,7 +18,7 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Kerala UEEYES
+  title:  Tomcat Workload Technopark UWYEY
   worker_threads: 5
   auto_refresh: false
-  nano : 264
+  nano : 265
