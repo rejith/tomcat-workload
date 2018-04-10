@@ -18,7 +18,7 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload FAB JSYS
+  title:  Tomcat Workload DUBAI
   worker_threads: 5
   auto_refresh: false
-  nano : 267
+  nano : 268
