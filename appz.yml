@@ -21,4 +21,4 @@ properties:
   title:  Tomcat Workload DUBAI
   worker_threads: 5
   auto_refresh: false
-  nano : 272
+  nano : 273
