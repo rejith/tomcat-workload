@@ -49,8 +49,7 @@
         <name>toBrowser</name>
         <required>false</required>
     </attribute>
-    -->
   </tag>
-
+  -->
 
 </taglib>
