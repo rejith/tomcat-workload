@@ -6,9 +6,6 @@
 
 <body>
 <pre>
-<%
- System.getProperties().list(out);
-%>
 </pre>
 </body>
 </html>
