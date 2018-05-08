@@ -37,6 +37,7 @@
   </validator>
 
   <!-- This is a dummy tag solely to satisfy DTD requirements -->
+  <!--
   <tag>
     <name>log</name>
     <tag-class>examples.LogTag</tag-class>
@@ -48,6 +49,7 @@
         <name>toBrowser</name>
         <required>false</required>
     </attribute>
+    -->
   </tag>
 
 
