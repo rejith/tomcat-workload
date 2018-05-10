@@ -122,10 +122,6 @@
       <servlet-class>ServletToJsp</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>ChatServlet</servlet-name>
-        <servlet-class>chat.ChatServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>CompressionFilterTestServlet</servlet-name>
         <servlet-class>compressionFilters.CompressionFilterTestServlet</servlet-class>
     </servlet>
@@ -154,10 +150,6 @@
         <servlet-class>SessionExample</servlet-class>
     </servlet>
 
-    <servlet-mapping>
-        <servlet-name>ChatServlet</servlet-name>
-        <url-pattern>/servlets/chat/chat</url-pattern>
-    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>CompressionFilterTestServlet</servlet-name>
         <url-pattern>/CompressionTest</url-pattern>
@@ -319,73 +311,6 @@
       <env-entry-type>java.lang.Integer</env-entry-type>
       <env-entry-value>10</env-entry-value>
     </env-entry>
-
-    <!-- Async examples -->
-    <servlet>
-      <servlet-name>async0</servlet-name>
-      <servlet-class>async.Async0</servlet-class>
-      <async-supported>true</async-supported>
-    </servlet>
-    <servlet-mapping>
-      <servlet-name>async0</servlet-name>
-      <url-pattern>/async/async0</url-pattern>
-    </servlet-mapping>
-    <servlet>
-      <servlet-name>async1</servlet-name>
-      <servlet-class>async.Async1</servlet-class>
-      <async-supported>true</async-supported>
-    </servlet>
-    <servlet-mapping>
-      <servlet-name>async1</servlet-name>
-      <url-pattern>/async/async1</url-pattern>
-    </servlet-mapping>
-    <servlet>
-      <servlet-name>async2</servlet-name>
-      <servlet-class>async.Async2</servlet-class>
-      <async-supported>true</async-supported>
-    </servlet>
-    <servlet-mapping>
-      <servlet-name>async2</servlet-name>
-      <url-pattern>/async/async2</url-pattern>
-    </servlet-mapping>
-    <servlet>
-      <servlet-name>async3</servlet-name>
-      <servlet-class>async.Async3</servlet-class>
-      <async-supported>true</async-supported>
-    </servlet>
-    <servlet-mapping>
-      <servlet-name>async3</servlet-name>
-      <url-pattern>/async/async3</url-pattern>
-    </servlet-mapping>
-    <servlet>
-      <servlet-name>stock</servlet-name>
-      <servlet-class>async.AsyncStockServlet</servlet-class>
-      <async-supported>true</async-supported>
-    </servlet>
-    <servlet-mapping>
-      <servlet-name>stock</servlet-name>
-      <url-pattern>/async/stockticker</url-pattern>
-    </servlet-mapping>
-
-    <!-- Non-blocking IO examples -->
-    <servlet>
-      <servlet-name>bytecounter</servlet-name>
-      <servlet-class>nonblocking.ByteCounter</servlet-class>
-      <async-supported>true</async-supported>
-    </servlet>
-    <servlet-mapping>
-      <servlet-name>bytecounter</servlet-name>
-      <url-pattern>/servlets/nonblocking/bytecounter</url-pattern>
-    </servlet-mapping>
-    <servlet>
-      <servlet-name>numberwriter</servlet-name>
-      <servlet-class>nonblocking.NumberWriter</servlet-class>
-      <async-supported>true</async-supported>
-    </servlet>
-    <servlet-mapping>
-      <servlet-name>numberwriter</servlet-name>
-      <url-pattern>/servlets/nonblocking/numberwriter</url-pattern>
-    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
