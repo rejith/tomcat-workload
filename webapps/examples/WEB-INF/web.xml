@@ -184,33 +184,6 @@
     </servlet-mapping>
 
     <jsp-config>
-        <taglib>
-            <taglib-uri>
-               http://tomcat.apache.org/debug-taglib
-            </taglib-uri>
-            <taglib-location>
-               /WEB-INF/jsp/debug-taglib.tld
-            </taglib-location>
-        </taglib>
-
-        <taglib>
-            <taglib-uri>
-               http://tomcat.apache.org/example-taglib
-            </taglib-uri>
-            <taglib-location>
-               /WEB-INF/jsp/example-taglib.tld
-            </taglib-location>
-        </taglib>
-
-        <taglib>
-            <taglib-uri>
-               http://tomcat.apache.org/jsp2-example-taglib
-            </taglib-uri>
-            <taglib-location>
-               /WEB-INF/jsp2/jsp2-example-taglib.tld
-            </taglib-location>
-        </taglib>
-
         <jsp-property-group>
             <description>
                 Special property group for JSP Configuration JSP example.
