@@ -18,8 +18,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload
+  title:  Tomcat Workload NeST
   worker_threads: 5
   auto_refresh: false
-  nano : 288
+  nano : 289
   
