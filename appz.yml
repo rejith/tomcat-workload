@@ -22,5 +22,5 @@ properties:
   title:  Tomcat Workload NeST
   worker_threads: 5
   auto_refresh: false
-  nano : 289
+  nano : 290
   
