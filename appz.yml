@@ -22,5 +22,5 @@ properties:
   title:  Tomcat Workload SJ2
   worker_threads: 5
   auto_refresh: false
-  nano : 294
+  nano : 295
   
