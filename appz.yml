@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Abu Dhabi
+  title:  Tomcat Workload Boston
   worker_threads: 5
   auto_refresh: false
-  nano : 307
+  nano : 308
   
