@@ -14,7 +14,7 @@ build:
   
 deploy:
   context: myco/DEV
-  replicas: 8
+  replicas: 2
   strategy : recreate
   port: 8080
   
