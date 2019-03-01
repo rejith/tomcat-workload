@@ -5,7 +5,7 @@ app:
   
 build:
   version : 0.9
-  env : UA
+  env : DEV
   build_file : build.xml
   output_files : output/*.war
   image_template: tomcat8
@@ -13,7 +13,7 @@ build:
   interval : 0
   
 deploy:
-  context: myco/UA
+  context: myco/DEV
   replicas: 2
   strategy : recreate
   port: 8080
