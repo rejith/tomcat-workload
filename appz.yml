@@ -22,5 +22,5 @@ properties:
   title:  Tomcat Workload BOSTON
   worker_threads: 5
   auto_refresh: false
-  nano : 356
+  nano : 357
   
