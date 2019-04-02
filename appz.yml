@@ -19,7 +19,7 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload USA
+  title:  Tomcat Workload USA2
   worker_threads: 5
   auto_refresh: false
   nano : 366
