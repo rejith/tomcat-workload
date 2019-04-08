@@ -22,5 +22,5 @@ properties:
   title:  Tomcat Workload Walpole
   worker_threads: 5
   auto_refresh: false
-  nano : 368
+  nano : 369
   
