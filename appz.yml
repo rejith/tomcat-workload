@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Johnston
+  title:  Tomcat Workload WebEx
   worker_threads: 5
   auto_refresh: false
-  nano : 389
+  nano : 390
   
