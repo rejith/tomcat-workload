@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload WebEx
+  title:  Tomcat Workload Oman
   worker_threads: 5
   auto_refresh: false
-  nano : 390
+  nano : 391
   
