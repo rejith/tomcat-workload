@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload WebEx
+  title:  Tomcat Workload Walpole
   worker_threads: 5
   auto_refresh: false
-  nano : 399
+  nano : 400
   
