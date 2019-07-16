@@ -22,5 +22,5 @@ properties:
   title:  Tomcat Workload Zoom
   worker_threads: 5
   auto_refresh: false
-  nano : 408
+  nano : 409
   
