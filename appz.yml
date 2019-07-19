@@ -22,5 +22,5 @@ properties:
   title:  Tomcat Workload Friday
   worker_threads: 5
   auto_refresh: false
-  nano : 410
+  nano : 411
   
