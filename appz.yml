@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Friday
+  title:  Tomcat Workload Monday
   worker_threads: 5
   auto_refresh: false
-  nano : 411
+  nano : 412
   
