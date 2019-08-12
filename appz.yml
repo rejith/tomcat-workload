@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Skype
+  title:  Tomcat Workload WebEx
   worker_threads: 5
   auto_refresh: false
-  nano : 416
+  nano : 417
   
