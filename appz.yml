@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Thru
+  title:  Tomcat Workload Mon
   worker_threads: 5
   auto_refresh: false
-  nano : 418
+  nano : 419
   
