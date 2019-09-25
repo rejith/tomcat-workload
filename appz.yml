@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Quincy
+  title:  Tomcat Workload PVD
   worker_threads: 5
   auto_refresh: false
-  nano : 424
+  nano : 425
   
