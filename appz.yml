@@ -19,8 +19,8 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload PVD
+  title:  Tomcat Workload Zoom
   worker_threads: 5
   auto_refresh: false
-  nano : 425
+  nano : 426
   
