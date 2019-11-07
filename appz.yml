@@ -19,8 +19,7 @@ deploy:
   port: 8080
   
 properties:
-  title:  Tomcat Workload Boston
+  title:  Tomcat Workload Zoom
   worker_threads: 5
   auto_refresh: false
-  nano : 441
-  
+  nano : 442
