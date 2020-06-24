@@ -6,7 +6,7 @@ app:
 build:
   version : 0.9
   env : UA
-  build_file : pom.xml
+  build_file : build.xml
   output_files : output/*.war
   image_template: tomcat8-v2
   image_name : myco/tomcat-workload
